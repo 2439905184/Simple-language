@@ -28,6 +28,8 @@ for index,ch in test_code:
       str_start_index = index + 1
     elif str_times == 2:
       str_end_index = index - 1 
+      # 一个字符串已结束 需要清除引号记录次数
+      str_times = 0
   elif ch == '-':
     var ch_next = test_code[index+1]
     if ch_next == '>':

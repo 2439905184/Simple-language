@@ -1,2 +1,2 @@
-"hello" ->c 
-print c   
+"小沙盒自创的Simple语言" ->变量
+print 变量
