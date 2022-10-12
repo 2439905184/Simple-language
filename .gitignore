@@ -1,1 +1,4 @@
 *.exe
+*.class
+*.dex
+Simple语言的兼容层/JavaBridge/bin
