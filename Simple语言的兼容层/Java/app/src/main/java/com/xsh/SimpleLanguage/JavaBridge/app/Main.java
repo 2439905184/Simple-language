@@ -1,5 +1,6 @@
+package com.xsh.SimpleLanguage.JavaBridge.app;
 import java.util.*;
-import Simple;
+import com.xsh.SimpleLanguage.JavaBridge.app.Simple;
 
 public class Main
 {
