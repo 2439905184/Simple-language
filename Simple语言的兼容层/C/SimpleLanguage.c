@@ -1,0 +1,4 @@
+char* fx()
+{
+  return "hello"
+}
