@@ -4,13 +4,20 @@ void change_value(int *v, int *vv)
 {
     *v = *vv;
 }
+// 通过普通变量覆盖原变量的值
+void change_int(int *var, int p_value)
+{
+    *var = p_value;
+}
 int main()
 {
     // 声明两个变量
     int v = 0;
-    int vv = 1;
+    change_int(&v,128);
+    
+    //int vv = 1;
     // 传入变量的内存地址
-    change_value(&v,&vv);
+    //change_value(&v,&vv);
     printf("%d",v);
     // printf("%d",v);
 }
